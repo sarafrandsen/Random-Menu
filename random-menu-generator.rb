@@ -5,7 +5,7 @@ foods = ["mashed potatoes", "ketchup fried rice", "ice cream", "prawns", "liver 
 puts "How many items would you like to see from our menu?"
 listed_items = gets.chomp.to_i
 
-until listed_items < 10
+until listed_items <= 10
   puts "We only have 10 items available."
   puts "How many items would you like to see from our menu?"
   listed_items = gets.chomp.to_i
